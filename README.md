@@ -30,7 +30,25 @@ Finally our cluster is deployed on AWS.
 
 2. **Now We have to deploy sample snake game application on k8s**
    
-we have deployment file as well as Service file to expose our application
+we have deployment file as well as Service file to expose our application,
+
+**hello.yml**
+
+![Screenshot dep](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/ea54741f-ad40-43e3-92ae-b36f1687b8f6)
+
+**3.Then we have command to apply using**
+'''
+kubectl apply -f hello.yml
+
+'''
+After appying this file Deployment as well as Service will create and we expose it on Port no 30001 of NodePort service.
+let's check createted dep and svc
+
+![Screenshot files](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/cb87e19a-25e4-4905-9ae4-44b181666835)
+
+
+
+
 
 
 
