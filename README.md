@@ -4,7 +4,7 @@ A sample repository to create EKS on AWS using Terraform.
 Install AWS CLI
 As the first step, you need to install AWS CLI as we will use the AWS CLI (aws configure) command to connect Terraform with AWS in the next steps.
 
-Follow the below link to Install AWS CLI.
+**Follow the below link to Install AWS CLI**.
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 Install Terraform
@@ -14,11 +14,24 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 Connect Terraform with AWS
 Its very easy to connect Terraform with AWS. Run aws configure command and provide the AWS Security credentials as shown in the video.
 
-Initialize Terraform
+**Initialize Terraform**
 Clone the repository and Run terraform init. This will intialize the terraform environment for you and download the modules, providers and other configuration required.
 
 Optionally review the terraform configuration
-Run terraform plan to see the configuration it creates when executed.
+![Screenshot terra](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/23019c2b-6744-44ba-98b0-29b469f562ca)
+
+**Run terraform plan to see the configuration it creates when executed.**
+![Screenshot (682)](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/53d10a58-8d8b-4967-bed6-ae2f74d7af83)
+
 
 Finally, Apply terraform configuation to create EKS cluster with VPC
 terraform apply
+
+Finally our cluster is deployed on AWS.
+
+2. **Now We have to deploy sample snake game application on k8s**
+we have deployment file as well as Service file to expose our application
+
+
+
+
