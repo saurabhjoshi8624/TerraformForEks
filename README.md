@@ -53,7 +53,8 @@ now copy the any node public ip and give the port no.
 
 in our case 54.83.157.122:30001
 
-![Screenshot (692)](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/78c6ba73-fec0-41d7-89cc-d456fb7a8a5b)
+![Screenshot dash](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/e3e5c9f1-9dea-4c44-85a1-6d9aad578086)
+
 
 
 
