@@ -42,12 +42,25 @@ kubectl apply -f hello.yml
 
 '''
 After appying this file Deployment as well as Service will create and we expose it on Port no 30001 of NodePort service.
+
+
 let's check createted dep and svc
 
 ![Screenshot files](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/cb87e19a-25e4-4905-9ae4-44b181666835)
 
 
+now copy the any node public ip and give the port no. 
 
+in our case 54.83.157.122:30001
+
+![Screenshot (692)](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/78c6ba73-fec0-41d7-89cc-d456fb7a8a5b)
+
+
+
+**And open in it on browser. so we have successfully deployed sample game application** 
+
+
+![Screenshot app](https://github.com/saurabhjoshi8624/TerraformForEks/assets/119957235/5c3d9537-ecdd-4d42-8eea-bab7cda0efdc)
 
 
 
